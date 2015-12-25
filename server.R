@@ -56,30 +56,26 @@ shinyServer(
    })
    
    output$text5 <- renderText({
-     print("I have included three such technical indicators: MACD ('moving average convergence divergence'),")
+     print("I have included four such technical indicators: MACD ('moving average convergence divergence'), Bollinger Bands, Exponential Moving Average, and Volume.")
    })
    
-   output$text6 <- renderText({
-     print("Bollinger Bands, Exponential Moving Average, and Volume.  MACD indicates trend,")
-   })
-  
-  output$text7 <- renderText({
-    print("Bollinger Bands indicate range around the trend, EMA shows trend in another way, and volume is self-explanatory.")
+  output$text6 <- renderText({
+    print("MACD indicates trend, Bollinger Bands indicate range around the trend, EMA shows trend in another way, and volume is self-explanatory.")
   })
   
-  output$text8 <- renderText({
+  output$text7 <- renderText({
     print("Input the ticker in the text box for the stock you wish to evaluate, select the type of chart,")
   })
   
-  output$text9 <- renderText({
+  output$text8 <- renderText({
     print("you want, select from the list of available technical indicators, and choose a date range over")
   })
   
-  output$text10 <- renderText({
-    print("which you want to evaluate the security. In addition to a straightforward chart, bar charts")
+  output$text9 <- renderText({
+    print("which you want to evaluate the security.")
   })
   
-  output$text14 <- renderText({
+  output$text10 <- renderText({
     print("In addition to a straightforward chart, bar charts and candlesticks show additional information")
   })
   

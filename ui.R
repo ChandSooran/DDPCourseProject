@@ -69,17 +69,16 @@ shinyUI(fluidPage(
                 HTML("<br/>")
               ),
               textOutput("text6"),
-              textOutput("text7"),
               tags$div(
                 HTML("<br/>")
               ),
+              textOutput("text7"),
               textOutput("text8"),
               textOutput("text9"),
-              textOutput("text10"),
               tags$div(
                 HTML("<br/>")
               ),
-              textOutput("text14"),
+              textOutput("text10"),
               textOutput("text11"),
               tags$div(
                 HTML("<br/>")
